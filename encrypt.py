@@ -9,7 +9,7 @@ class Encrypt:
 
         if os.path.isdir("C:/"):
             print("Windows OS")
-            keys_directory = f"C:/Users/{self.user}/Videos/"
+            keys_directory = f"C:/Users/{self.user}/Documents/Keys/"
             keys_directory.mkdir(exist_ok=True)
             data_directory = pathlib.Path(f"C:/Users/{self.user}/Documents")
         elif os.path.isdir("/home/"):
